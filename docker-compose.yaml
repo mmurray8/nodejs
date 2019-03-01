@@ -1,0 +1,7 @@
+version: '1'
+services:
+  azure-nodejs:
+    image: azure-nodejs
+    container_name: azure-nodejs
+    ports:
+        - "80:80"
