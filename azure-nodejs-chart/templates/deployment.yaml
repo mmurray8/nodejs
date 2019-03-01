@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: {{ template "azure-nodejs-chart.name" . }}
+  name: azure-nodejs
 ---  
 apiVersion: apps/v1beta2
 kind: Deployment
